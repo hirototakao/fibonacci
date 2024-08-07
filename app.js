@@ -8,6 +8,7 @@ function fib(n) {
   }
   const value = fib(n - 1) + fib(n - 2);
   memo.set(n, value);
+  console.log(memo);
   return value;
 }
 const length = 10;
