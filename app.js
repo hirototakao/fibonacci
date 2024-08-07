@@ -10,7 +10,7 @@ function fib(n) {
   memo.set(n, value);
   return value;
 }
-const length = 40;
+const length = 10;
 for (let i = 0; i <= length; i++) {
   console.log(fib(i));
 }
