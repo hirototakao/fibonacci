@@ -4,6 +4,7 @@ memo.set(0, 0);
 memo.set(1, 1);
 function fib(n) {
   if (memo.has(n)) {
+    console.log(`Here's a calculated ${n}.`);
     return memo.get(n);
   }
   const value = fib(n - 1) + fib(n - 2);
